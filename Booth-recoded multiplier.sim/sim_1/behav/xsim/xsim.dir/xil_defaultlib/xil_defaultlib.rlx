@@ -1,0 +1,15 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/User/Documents/Projects/Booth-recoded multiplier/Booth-recoded multiplier.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/Users/User/Documents/Projects/Booth-recoded multiplier/Booth-recoded multiplier.srcs/sim_1/new/Booth_Encoder_tb.v,1702561866,verilog,,,,Booth_Encoder_tb,,,,,,,,
+C:/Users/User/Documents/Projects/Booth-recoded multiplier/Booth-recoded multiplier.srcs/sim_1/new/Booth_Recoded_Mult_tb.v,1702877042,verilog,,,,Booth_Recoded_Mult_tb,,,,,,,,
+C:/Users/User/Documents/Projects/Booth-recoded multiplier/Booth-recoded multiplier.srcs/sim_1/new/Full_Adder_tb.v,1702562861,verilog,,,,Full_Adder_tb,,,,,,,,
+C:/Users/User/Documents/Projects/Booth-recoded multiplier/Booth-recoded multiplier.srcs/sim_1/new/Half_Adder_tb.v,1702562344,verilog,,,,Half_Adder_tb,,,,,,,,
+C:/Users/User/Documents/Projects/Booth-recoded multiplier/Booth-recoded multiplier.srcs/sim_1/new/Partial_Product_tb.v,1702876270,verilog,,,,Partial_Product_tb,,,,,,,,
+C:/Users/User/Documents/Projects/Booth-recoded multiplier/Booth-recoded multiplier.srcs/sources_1/new/Booth_Encoder.v,1702506914,verilog,,C:/Users/User/Documents/Projects/Booth-recoded multiplier/Booth-recoded multiplier.srcs/sources_1/new/Booth_Recoded_Mult.v,,Booth_Encoder,,,,,,,,
+C:/Users/User/Documents/Projects/Booth-recoded multiplier/Booth-recoded multiplier.srcs/sources_1/new/Booth_Recoded_Mult.v,1702876981,verilog,,C:/Users/User/Documents/Projects/Booth-recoded multiplier/Booth-recoded multiplier.srcs/sources_1/new/Partial_Product.v,,Booth_Recoded_Mult,,,,,,,,
+C:/Users/User/Documents/Projects/Booth-recoded multiplier/Booth-recoded multiplier.srcs/sources_1/new/Full_Adder.v,1702386813,verilog,,C:/Users/User/Documents/Projects/Booth-recoded multiplier/Booth-recoded multiplier.srcs/sim_1/new/Full_Adder_tb.v,,Full_Adder,,,,,,,,
+C:/Users/User/Documents/Projects/Booth-recoded multiplier/Booth-recoded multiplier.srcs/sources_1/new/Half_Adder.v,1702386686,verilog,,C:/Users/User/Documents/Projects/Booth-recoded multiplier/Booth-recoded multiplier.srcs/sim_1/new/Half_Adder_tb.v,,Half_Adder,,,,,,,,
+C:/Users/User/Documents/Projects/Booth-recoded multiplier/Booth-recoded multiplier.srcs/sources_1/new/Partial_Product.v,1702873648,verilog,,C:/Users/User/Documents/Projects/Booth-recoded multiplier/Booth-recoded multiplier.srcs/sim_1/new/Booth_Recoded_Mult_tb.v,,Partial_Product,,,,,,,,
