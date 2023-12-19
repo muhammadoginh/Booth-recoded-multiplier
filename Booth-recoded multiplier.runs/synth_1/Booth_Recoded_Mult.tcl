@@ -71,7 +71,7 @@ proc create_report { reportName command } {
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param checkpoint.writeSynthRtdsInDcp 1
-set_param synth.incrementalSynthesisCache C:/Users/User/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-24952-DESKTOP-U41830S/incrSyn
+set_param synth.incrementalSynthesisCache C:/Users/User/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-103632-DESKTOP-U41830S/incrSyn
 set_msg_config -id {Synth 8-256} -limit 10000
 set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
@@ -103,7 +103,12 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
+read_xdc {{C:/Users/User/Documents/Projects/Booth-recoded multiplier/Booth-recoded multiplier.srcs/constrs_1/new/timing.xdc}}
+set_property used_in_implementation false [get_files {{C:/Users/User/Documents/Projects/Booth-recoded multiplier/Booth-recoded multiplier.srcs/constrs_1/new/timing.xdc}}]
+
 set_param ips.enableIPCacheLiteLoad 1
+
+read_checkpoint -auto_incremental -incremental {C:/Users/User/Documents/Projects/Booth-recoded multiplier/Booth-recoded multiplier.srcs/utils_1/imports/synth_1/Booth_Recoded_Mult.dcp}
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

@@ -18,9 +18,10 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
-
+ 
 
 module Partial_Product(
+    input clk,
     input signed [15:0] X,
     input one,        // represent X
     input two,        // represent 2X
@@ -36,7 +37,7 @@ module Partial_Product(
     //   1   0   1     -1X     X inverted, +1
     //   1   0   0     -0X
     
-    always @* begin
+    always @(posedge clk) begin
         case ({sign, two, one})
             3'b000: pp = {16'b0};
             3'b001: pp = {X};

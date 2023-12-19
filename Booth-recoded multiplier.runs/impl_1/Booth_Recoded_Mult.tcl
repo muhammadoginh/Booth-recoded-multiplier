@@ -126,7 +126,7 @@ set rc [catch {
   create_msg_db init_design.pb
   set_param checkpoint.writeSynthRtdsInDcp 1
   set_param chipscope.maxJobs 4
-  set_param synth.incrementalSynthesisCache C:/Users/User/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-24952-DESKTOP-U41830S/incrSyn
+  set_param synth.incrementalSynthesisCache C:/Users/User/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-103632-DESKTOP-U41830S/incrSyn
 OPTRACE "create in-memory project" START { }
   create_project -in_memory -part xc7a200tfbg676-2
   set_property board_part xilinx.com:ac701:part0:1.4 [current_project]
@@ -142,6 +142,7 @@ OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
   add_files -quiet {{C:/Users/User/Documents/Projects/Booth-recoded multiplier/Booth-recoded multiplier.runs/synth_1/Booth_Recoded_Mult.dcp}}
 OPTRACE "read constraints: implementation" START { }
+  read_xdc {{C:/Users/User/Documents/Projects/Booth-recoded multiplier/Booth-recoded multiplier.srcs/constrs_1/new/timing.xdc}}
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "add files" END { }
 OPTRACE "link_design" START { }
